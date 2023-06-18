@@ -2,20 +2,12 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
-  },
-  {
     id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
+    title: "Sign In",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Book Demo",
   },
 ];
 
@@ -74,17 +66,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "3800+",
+    value: " Name",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: " Email",
   },
   {
     id: "stats-3",
     title: "Transaction",
-    value: "$230M+",
+    value: "Stay ",
   },
 ];
 
@@ -195,3 +187,33 @@ export const clients = [
     logo: dropbox,
   },
 ];
+export const styles = `
+  .bubble-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+  
+  .bubble-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .oval-input {
+    border-radius: 999px;
+    padding: 8px;
+    width: 200px; /* Adjust the width as needed */
+  }
+
+  .centeredBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+  
+`;

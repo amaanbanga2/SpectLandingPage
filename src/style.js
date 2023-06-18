@@ -13,6 +13,9 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  // New class for centering sectionImg
+  centerContent: "flex justify-center items-center h-full",
 };
 
 export const layout = {
